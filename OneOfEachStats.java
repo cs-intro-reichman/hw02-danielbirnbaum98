@@ -21,7 +21,7 @@ public class OneOfEachStats {
 			//Creating a loop that runs untill we have one of each
 			int numOfChildrenInSpecificFamily = 0;
 			while (boy  || girl) {
-				double child = (int)(Math.random());
+				int child = (int)(Math.random());
 				if (child == 0){
 					girl = false;
 				}
