@@ -17,9 +17,11 @@ public class OneOfEach {
 				boy = false;
 				System.out.print("b");
 			}
-			System.out.println();
+			System.out.print(" ");
+			
 
 		}
+		System.out.println();
 		System.out.println("You made it... and you now have " + i + " children.");
 	}
 }
