@@ -19,10 +19,6 @@ public class Perfect {
 
 		else{
 			System.out.println(notPerfect);	
-
 		}
-
 	}
-
-	
 }

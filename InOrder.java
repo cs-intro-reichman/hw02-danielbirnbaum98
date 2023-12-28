@@ -7,22 +7,11 @@ public class InOrder {
 		
 		 while (lastNum >= maxNum){
 		 	lastNum = (int)(Math.random() * 10);
-		 	
-
-
 		 	if (lastNum >= maxNum){
 		 		maxNum = lastNum;
 		 		System.out.print(lastNum + " ");
-
+		 	}	
 		 	}
-		 		
-		 	}
-
-
 		 }
-
-		
-
-		
 
 	}
